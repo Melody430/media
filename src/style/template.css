@@ -1,0 +1,85 @@
+.steps-content,.activeStepContent{
+	width: 1000px;
+	margin: 40px auto;
+}
+
+
+.stepContent,.fullPageShow{
+	width: 200px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	height: 300px;
+	text-align: center;
+}
+.fullPageShow img,
+.fullPageShow video{
+	width: 100%;
+}
+.stepContent p{
+	margin: 0;
+	padding: 0;
+
+}
+.template-Full{
+	line-height: 300px;
+}
+.template-second > p:first-of-type{
+	height: 200px;
+	background: #ffc09f;
+	line-height: 200px;
+}
+.template-second > p:last-of-type{
+	height: 100px;
+	background: #ffee93;
+	line-height: 100px;
+}
+
+.template-third > p{
+	height: 100px;
+	line-height: 100px;
+}
+.template-third > p:first-of-type{
+	background: #ffc09f;
+}
+.template-third > p:nth-of-type(2){
+	background: #ffee93;
+}
+.template-third > p:last-of-type{
+	background: #e2dbbe;
+}
+.stepContent ~ div{
+	width: 200px;
+	text-align: center;
+	margin: 20px auto;
+}
+.chooseTemplate{
+	position: relative;
+}
+.chooseTemplate:hover{
+	border: 1px solid #ccc;
+}
+.activeTemplate{
+	border: 1px solid #4cb4e7;
+}
+.check{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 32px;
+	color: #fff ;
+	background: #4cb4e7;
+	visibility: hidden;
+}
+.activeTemplate .check{
+	visibility: visible;
+}
+.buttonPlay{
+	text-align: center;
+	margin: 30px;
+}
+.steps-content{
+	display: none;
+}
+.activeStepContent{
+	display: block;
+}

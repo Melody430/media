@@ -1,0 +1,55 @@
+.listGroup{
+	list-style: none;
+	padding: 10px;
+	width: 100%;
+	margin: 20px auto;
+	background: #fff;
+	box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+
+}
+.listGroup :after{
+	clear:both;
+	content:'.';
+	display:block;
+	width: 0;
+	height: 0;
+	visibility:hidden;
+}
+.listGroup li{
+	padding: 10px;
+
+}
+.listGroup li:not(:last-of-type){
+	border-bottom: 1px solid #ccc;
+}
+.listGroup li p:first-of-type{
+	width: 38%;
+	float: left;
+}
+.listGroup li p:first-of-type img{
+	width: 150px;
+}
+.listGroup li p:last-of-type{
+	width: 60%;
+	float: left;
+
+}
+.listGroup li span{
+	display: block;
+}
+.housePic{
+	margin: 20px 0;
+}
+.housePic img{
+	width: 150px;
+	border-radius: 5px;
+}
+.housePic button{
+	margin-top: 40px;
+}
+.housePic .ant-card-body {
+    padding: 15px 10px !important;
+}
+.housePic .ant-card-head{
+	padding: 0 10px;
+}

@@ -1,0 +1,39 @@
+.upLoadFile{
+	
+	padding: 20px;
+	box-sizing: border-content;
+}
+
+.upLoadFile h4{
+	text-align: center;
+}
+.row{
+ margin-bottom: 20px; 
+
+}
+.row input[type="text"]{
+	width: 300px;
+	border: 1px solid #d1d1d1;
+	margin-left: 10px;
+	padding: 3px 5px;
+}
+
+.row input[type="file"]{
+	width: 300px;
+	border: 1px solid #d1d1d1;
+	margin-left: 10px;
+	padding: 3px 5px;
+}
+.media{
+	border: 1px solid #d1d1d1;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.media img,
+.media video,
+.media textarea{
+	width: 100%;
+}
+.media textarea{
+	height: 200px;
+}

@@ -1,0 +1,21 @@
+.menus{
+	height: 60px;
+	box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+	font-size: 16px;
+	color:#008dff;
+}
+.logo img{
+	height: 40px;
+	margin: 10px 10px 10px 50px;
+}
+.ant-menu-horizontal{
+	border-bottom: none !important;
+	line-height: 60px !important;
+}
+.acounter{
+	line-height: 60px;
+}
+.acounter span:nth-child(2){
+	display: inline-block;
+	margin-right: 20px;
+}
